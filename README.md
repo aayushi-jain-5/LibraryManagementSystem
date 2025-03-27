@@ -11,18 +11,19 @@ This is a simple library management system built using Java. It allows librarian
 
 ## Run Instructions
  javac -d bin src/com/library/*.java 
+ 
 java -cp bin com.library.LibraryManagementSystem
 
 ### Clone the Repository:
 ```bash
 git clone https://github.com/aayushi-jain-5/LibraryManagementSystem.git
 
-Challenges Faced
+##### Challenges Faced
 Input validation and exception handling were crucial aspects of the project, ensuring valid book data and handling errors like missing books.
 
 The console-based interface, while functional, could be enhanced with a graphical user interface (GUI) for a better user experience.
 
-Improvements
+##### Improvements
 GUI: Could be added to make the system more user-friendly.
 
 Database Integration: A database can be integrated to persist the book data beyond application restarts.
